@@ -14,7 +14,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    return view('index');
+    return redirect('http://localhost:3000'); // redirect to FE app
 });
 
 // API routing

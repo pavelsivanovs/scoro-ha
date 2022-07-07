@@ -58,8 +58,6 @@ class ProjectController extends Controller
      */
     public function updateStatus($project_id, $status_id)
     {
-        // TODO maybe check if the status is ok
-
         $body = $this->default_body;
         $body['request'] = [
             'status' => $status_id
